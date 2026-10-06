@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js" integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Landing page</title>
 </head>
 <body>
@@ -78,8 +77,8 @@
                     <a href="tel:15381556344" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
-                            (15) 98155-6344
                         </button>
+                        (15) 98155-6344
                     </a>
                 </div>
 
@@ -115,7 +114,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/img/dish.png" class=dish-heart alt="">
+                    <img src="src/img/dish.png" class="dish-image" alt="">
 
                     <h3 class="'dish-title">
                         Lorem Ipsum
@@ -149,7 +148,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/img/dish2.png" class=dish-heart alt="">
+                    <img src="src/img/dish2.png" class="dish-image" alt="">
 
                     <h3 class="'dish-title">
                         Lorem Ipsum
@@ -183,7 +182,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/img/dish3.png" class=dish-heart alt="">
+                    <img src="src/img/dish3.png" class="dish-image" alt="">
 
                     <h3 class="'dish-title">
                         Lorem Ipsum
@@ -217,7 +216,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/img/dish4.png" class=dish-heart alt="">
+                    <img src="src/img/dish4.png" class="dish-image" alt="">
 
                     <h3 class="'dish-title">
                         Lorem Ipsum
@@ -246,7 +245,91 @@
             </div>
         </section>
 
+        <section id="testimonials">
+            <img src="src/img/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section_subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo eius vel deserunt praesentium aperiam quaerat velit at omnis nesciunt saepe doloribus ullam explicabo cumque corrupti fuga dolor, illo officia."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo eius vel deserunt praesentium aperiam quaerat velit at omnis nesciunt saepe doloribus ullam explicabo cumque corrupti fuga dolor, illo officia."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2026 Eros Vasconcelos
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="src/javascript/script.js"></script>
 </body>
